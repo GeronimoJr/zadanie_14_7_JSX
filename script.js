@@ -1,6 +1,6 @@
 var app = <App />;
 
 ReactDOM.render(
-    <App />,
+    app,
     document.getElementById('app')
   );
