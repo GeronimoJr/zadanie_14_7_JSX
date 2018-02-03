@@ -1,15 +1,23 @@
 {
-  "name": "zadanie_14_5",
+  "name": "zadanie_14_7",
   "version": "1.0.0",
   "description": "",
   "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeronimoJr/zadanie_14_7_JSX.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GeronimoJr/zadanie_14_7_JSX/issues"
+  },
+  "homepage": "https://github.com/GeronimoJr/zadanie_14_7_JSX#readme",
   "dependencies": {
-    "browser-sync": "^2.23.6"
+    "babel-standalone": "^6.26.0"
   }
 }
