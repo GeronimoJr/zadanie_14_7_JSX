@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    background-color: #E9EBEE;
+    font-weight: bold;
+}
+.app {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.app::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.contactForm {
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    padding: 50px 0;
+}
+.contactsList {
+    padding: 10px 50px;
+    float: left;
+    text-align: center;
+}
+.contactItem {
+    display: inline-block;
+    margin: 0 20px;
+}
+input {
+    border-radius: 5px;
+    margin: 0 10px;
+    padding-left: 10px;
+    border: 0px;
+}
+button {
+    background-color: #000000;
+    color: white;
+    font-weight: bold;
+    padding: 0px 10px;
+    text-transform: uppercase;
+    border: 0px;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+button:hover {
+    background-color: green;
+    cursor: pointer;
+    transition: .3s;
+}
+.contactLabel, .contactEmail {
+    background-color: #f2aef2;
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: #19191c;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
